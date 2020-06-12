@@ -20,9 +20,6 @@
 }
 
 @media only screen and (max-width: 600px)  {
-  body{
-    background-color: green;
-  }
   .wrapper {
     height: 100vh;
     display: flex;

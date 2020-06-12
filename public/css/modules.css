@@ -12,8 +12,7 @@
 .main {
   color: #00171f;
 }
-.main_buttons {
-}
+
 .main_buttons button{
   padding: 1rem;
   margin-left:2.5rem;
@@ -79,5 +78,36 @@
     padding: 1rem 1rem;
  
   }
-  
+  .main_buttons {
+    display: flex;
+    height: 17rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+
+  }
+  .main_buttons button {
+    width: 100%;
+    margin:0;
+  }
+  .main_person {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .member__pic img {
+    width: 50vw;
+  }
+  .member {
+    width: 100%;
+  }
+  .member__skills {  
+  margin:0.5rem;
+  }
+  .member__skills li {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  line-height: 3rem;
+}
 }
