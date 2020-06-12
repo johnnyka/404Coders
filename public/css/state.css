@@ -1,0 +1,10 @@
+.nav_links li:hover{
+  background-color: rgba(222, 57, 159, 0.603);
+  color: #ffffff;
+  box-shadow: -1px 1px rgba(24, 23, 23, 0.596);
+}
+
+.main_buttons button:hover{
+  background-color: rgba(136, 27, 94, 0.938);
+  cursor: pointer;
+}
